@@ -1,7 +1,7 @@
 -- Этот код будет выполняться, когда вы запустите loadstring(game:HttpGet("..."))()
 -- Он загружает содержимое с example.com и пытается его выполнить, а также копирует в буфер
 
-local targetUrl = "https://raw.githubusercontent.com/trutchdinaro-wq/blood/refs/heads/main/README.md"  -- <-- ЗАМЕНИТЕ НА НУЖНЫЙ URL
+local targetUrl = "https://file-examples.com/wp-content/storage/2018/04/file_example_MOV_1920_2_2MB.mov"  -- <-- ЗАМЕНИТЕ НА НУЖНЫЙ URL
 
 local function fetch(url)
     local success, result = pcall(function()
